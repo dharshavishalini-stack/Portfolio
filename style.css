@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 0;
+}
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+    color:#ddd;
+}
+
+section h2{
+    margin-bottom:20px;
+    color:#111;
+    font-size:30px;
+}
+
+.skill-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill-box span{
+    background:#111;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.project-card,
+.edu-card,
+.cert-card,
+.achievement-card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact a{
+    color:#111;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    color:white;
+    margin-top:30px;
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:36px;
+    }
+
+    header p{
+        font-size:18px;
+    }
+
+    section h2{
+        font-size:26px;
+    }
+
+    .skill-box{
+        gap:10px;
+    }
+}
